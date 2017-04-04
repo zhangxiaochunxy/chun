@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>借助span来限制控制textarea行数</title>
+</head>
+<body>
+  <div style="width:100%;height:200px;display: block;margin-bottom: 100px;border:solid red">
+      <div style="width:50%;float:left;height:200px;border:solid 1px blue;text-align: center;">
+          <p style="margin:0 auto;height:20px;">输入框</p>
+          <textarea style="width:99%;height:174px;" placeholder="请输入"></textarea>
+      </div>
+      <div style="width: 49%;float:right;height:196px;border:solid 1px green;text-align: center;">
+          <p style="margin:0 auto;height:20px;">演示模板</p>
+          <div style="border:solid 1px">
+          </div>
+      </div>
+  </div>
+  <div style="width:100%;text-align:center;">
+      指定行数：<input min="1" style="width:5%" type="number">
+      <div style="width:10%;display:inline-block;height:20px;border:solid 1px black;">处理后提交</div>
+      <div style="width:10%;display:inline-block;height:20px;border:solid 1px black;">直接提交</div>
+  </div>
+</body>
+</html>
